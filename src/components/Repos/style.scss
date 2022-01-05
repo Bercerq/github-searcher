@@ -1,0 +1,17 @@
+.repos {
+  border-top: 1px solid #30363d;
+  padding: 36px;
+  color: lightgrey;
+  font-size: 18px;
+
+  &__item {
+    margin: 16px 0;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  .no_items {
+    justify-content: center;
+    display: flex;
+  }
+}

@@ -1,0 +1,15 @@
+.search_container {
+  margin: auto;
+  background-color: #161b22;
+  display: flex;
+  align-items: center;
+  padding: 16px 32px;
+  svg {
+    fill: white;
+    margin-right: 16px;
+    cursor: pointer;
+    &:hover {
+      opacity: 0.8;
+    }
+  }
+}

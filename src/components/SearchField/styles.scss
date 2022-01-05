@@ -1,0 +1,21 @@
+input {
+  border: 1px solid #30363d;
+  background: none;
+  width: 300px;
+  padding: 8px 12px;
+  border-radius: 8px;
+  color: white;
+  transition: 0.3s;
+  outline: none;
+  &::placeholder {
+    color: grey;
+  }
+  &:focus {
+    width: 450px;
+    border: 1px solid rgba(62, 115, 228, 0.966);
+
+    &::placeholder {
+      color: lightgrey;
+    }
+  }
+}

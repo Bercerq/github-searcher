@@ -1,0 +1,21 @@
+.user {
+  margin: 36px 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  div {
+    margin: 0 16px;
+  }
+  &__image {
+    img {
+      width: 296px;
+      border-radius: 50%;
+    }
+  }
+  &__info {
+    .info_item {
+      color: lightgrey;
+      font-size: 18px;
+    }
+  }
+}

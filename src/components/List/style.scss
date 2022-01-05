@@ -1,0 +1,27 @@
+.item {
+  margin: 16px 12px;
+  padding: 16px 20px;
+  background-color: #161b22;
+  border: 1px solid #30363d;
+  height: 100px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  cursor: pointer;
+  transition: 0.3s;
+  &:hover {
+    background-color: #161b22a6;
+  }
+  div {
+    display: flex;
+    color: lightgrey;
+    font-size: 18px;
+  }
+  &__image {
+    margin-right: 16px;
+    img {
+      width: 32px;
+      border-radius: 50%;
+    }
+  }
+}

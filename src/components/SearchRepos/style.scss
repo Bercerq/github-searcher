@@ -1,0 +1,19 @@
+.search {
+  display: flex;
+  align-items: center;
+  margin: 0 0 36px 36px;
+
+  .clear_button {
+    background: none;
+    outline: none;
+    border: 1px solid #30363d;
+    font-size: 14px;
+    color: lightgrey;
+    padding: 8px 16px;
+    margin-left: 16px;
+    cursor: pointer;
+    &:hover {
+      opacity: 0.9;
+    }
+  }
+}
